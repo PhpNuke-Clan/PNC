@@ -1,0 +1,478 @@
+.blockhead{
+}
+/*techra dark block potential block css*/
+
+panel {
+Z-INDEX: 1; 
+LEFT: 0px; 
+WIDTH: 400px; 
+POSITION: absolute; 
+TOP: 31px; 
+TEXT-ALIGN: right
+}
+divContainer {
+LEFT: 0px; 
+VISIBILITY: hidden; 
+MARGIN: 10px; 
+OVERFLOW: hidden; 
+WIDTH: 400px; 
+CLIP: rect(0px 400px 524px 0px); 
+POSITION: absolute; 
+TOP: 45px; 
+HEIGHT: 524px
+}
+divContent {
+LEFT: 0px; 
+POSITION: absolute; 
+TOP: 0px
+}
+TD.info1 {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 1px solid #474747; 
+BORDER-RIGHT: 1px solid #000000;
+FONT-WEIGHT: bold;
+}
+TD.info2 {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 1px solid #474747; 
+BORDER-RIGHT: 1px solid #000000;
+FONT-WEIGHT: bold;
+}
+TD.infolt {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 1px solid #474747; 
+BORDER-RIGHT: 0px solid #000000;
+FONT-WEIGHT: bold;
+}
+TD.infort {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 0px solid #474747; 
+BORDER-RIGHT: 1px solid #000000;
+FONT-WEIGHT: bold;
+}
+bottom {
+Z-INDEX: 2; 
+LEFT: 0px; 
+WIDTH: 100%; 
+POSITION: absolute; 
+TOP: 594px; 
+HEIGHT: 30px; 
+TEXT-ALIGN: center
+}
+A:link {
+FONT-SIZE: 10px; 
+COLOR: #77A4B9; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+A:visited {
+FONT-SIZE: 10px; 
+COLOR: #77A4B9; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+A:active {
+FONT-SIZE: 10px; 
+COLOR: #77A4B9; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+A:hover {
+FONT-SIZE: 10px; 
+COLOR: #CBE6F7; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+BODY {
+FONT-SIZE: 10px; 
+CURSOR: default; 
+COLOR: #FFFFFF;
+background-color: #3C3C3C;
+background-image: url(../../../themes/Lexus-Blue/images/bg.jpg);
+background-repeat: repeat-x;
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+INPUT {background:#DDDDDD;
+color:#FFFFFF;
+font:11px Verdana,Arial,Helvetica,sans-serif;
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid; 
+BORDER-LEFT: #454545 1px solid; 
+BORDER-RIGHT: #707070 1px solid;
+}
+TEXTAREA {background:#262626;
+color:#FFFFFF;
+font:11px Verdana,Arial,Helvetica,sans-serif;
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid; 
+BORDER-LEFT: #454545 1px solid; 
+BORDER-RIGHT: #707070 1px solid;
+}
+P {
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+LINE-HEIGHT: 1.4; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+TABLE {
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TD.content {
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #454545 1px solid;
+FONT-SIZE: 10px;
+COLOR: #FFFFFF;
+BACKGROUND-COLOR: #262626; 
+TEXT-DECORATION: none
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+}
+TD.extra {
+background:#242426; 
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #454545 1px solid;
+}
+TD.extras {
+background:#262626; 
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #454545 1px solid;
+}
+TD.story {
+background:#262626;
+color:#FFFFFF;
+font:11px Verdana,Arial,Helvetica,sans-serif;
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #454545 1px solid;
+}
+hr {
+border-top: 1px solid #454545;
+border-bottom: 1px solid #707070;
+color: transparent;
+background-color: transparent;
+height: 2px;
+width: 98%;
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+.center {
+	TEXT-ALIGN: center
+}
+.justify {
+	TEXT-ALIGN: justify
+}
+.right {
+	TEXT-ALIGN: right
+}
+H1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.fade {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.user {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+IMG.work {
+BORDER-RIGHT: #FFFFFF 1px solid; 
+BORDER-TOP: #FFFFFF 1px solid; 
+BORDER-LEFT: #FFFFFF 1px solid; 
+BORDER-BOTTOM: #FFFFFF 1px solid
+}
+.error {
+COLOR: #FFFFFF; 
+BACKGROUND-COLOR: #454545
+}
+#maintable {
+Z-INDEX: 6; 
+VISIBILITY: hidden; 
+FONT: 10px verdana; 
+COLOR: #FFFFFF; 
+POSITION: absolute; 
+TEXT-ALIGN: center
+}
+#custtable {
+Z-INDEX: 6; 
+VISIBILITY: hidden; 
+FONT: 10px verdana; 
+COLOR: #FFFFFF; 
+POSITION: absolute; 
+TEXT-ALIGN: center
+}
+#linktable {
+Z-INDEX: 6; 
+VISIBILITY: hidden; 
+FONT: 10px verdana; 
+COLOR: #FFFFFF; 
+POSITION: absolute; 
+TEXT-ALIGN: center
+}
+SELECT {
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #454545 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #454545 1px solid;
+FONT-SIZE: 10px;
+COLOR: #FFFFFF;
+BACKGROUND-COLOR: #262626; 
+TEXT-DECORATION: none
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #454545; border:1px solid; border-color:#707070}
+
+/* This is the outline round the main forum tables */
+.forumline	{ background-color: #262626; border:1px solid; border-color:#707070;}
+
+/*
+//====================================================================== |
+//==== Start Advanced BBCode Box MOD =================================== |
+//==== v5.1.0 ========================================================== |
+//====
+*/
+.postimage {
+	cursor: pointer;
+	cursor: hand;
+}
+.postimage:hover {
+	background-color: #C2CFE5;
+	cursor: pointer;
+	cursor: hand;
+}
+/*
+//====
+//==== End Advanced BBCode Box MOD ==================================== |
+//===================================================================== |
+*/
+
+/* Main table cell colours and backgrounds */
+td.row1	{background:#313131;border:1px solid; border-color:#474747 #000000 #000000 #474747}
+td.row2	{background:#262626;border:1px solid; border-color:#707070 #707070 #707070 #707070}
+td.row3	{background:#262626;border:1px solid; border-color:#707070 #707070 #707070 #707070}
+td.rowlt	{
+background:#262626;
+BORDER-RIGHT: #707070 0px solid; 
+BORDER-TOP: #707070 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #707070 1px solid;
+}
+td.rowrt	{
+background:#262626;
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #707070 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #707070 0px solid;
+}
+
+td.rowpic {
+		background-color: #262626;
+        border:1px solid; border-color:#707070 #707070 #707070 #707070;
+		background-repeat: repeat-y;
+}
+
+
+th	{
+	color: #FFFFFF; font-size: 11px; font-weight : bold;
+	background-color: #454545; height: 20px;
+    border:1px solid; border-color:#707070 #707070 #707070 #707070;
+	
+}
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+			
+			background-color: #262626;
+            border:1px solid; border-color:#707070 #707070 #707070 #707070; height: 28px;
+}
+
+
+td.cat, td.catHead, td.catBottom {
+	height: 29px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead, th.thSides, th.thTop, th.thLeft, th.thRight, th.thBottom, th.thCornerL, th.thCornerR {
+	font-weight: bold; border:1px solid; border-color:#707070 #707070 #707070 #707070; height: 28px; }
+td.row3Right, td.spaceRow {
+background-color: #262626; 
+BORDER-RIGHT: #707070 1px solid; 
+BORDER-TOP: #707070 1px solid; 
+BORDER-BOTTOM: #707070 1px solid;
+BORDER-LEFT: #707070 1px solid;}
+
+th.thHead, td.catHead { font-size: 10px; border-width: 1px 1px 0px 1px; }
+th.thSides, td.catSides, td.spaceRow	 { border-width: 0px 1px 0px 1px; }
+th.thRight, td.catRight, td.row3Right	 { border-width: 0px 1px 0px 0px; }
+th.thLeft, td.catLeft	  { border-width: 0px 0px 0px 1px; }
+th.thBottom, td.catBottom  { border-width: 0px 1px 1px 1px; }
+th.thTop	 { border-width: 1px 0px 0px 0px; }
+th.thCornerL { border-width: 1px 0px 0px 1px; }
+th.thCornerR { border-width: 1px 1px 0px 0px; }
+
+
+.maintitle, h1, h2	{
+			font-weight: bold; font-size: 22px; font-family: "Arial",Verdana, Helvetica, sans-serif;
+			text-decoration: none; line-height : 100%; color : #FFFFFF;
+}
+
+
+/* General text */
+.gen { font-size : 10px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen, .genmed, .gensmall { color : #FFFFFF; }
+a.gen, a.genmed, a.gensmall { color: #77A4B9; text-decoration: none; }
+a.gen:hover, a.genmed:hover, a.gensmall:hover	{ color: #CBE6F7; text-decoration: none; }
+
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #FFFFFF;}
+a.mainmenu		{ text-decoration: none; color : #77A4B9;}
+a.mainmenu:hover{ text-decoration: none; color : #CBE6F7;}
+
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 10px ; letter-spacing: 0px; color : #FFFFFF}
+a.cattitle		{ text-decoration: none; color : #77A4B9; }
+a.cattitle:hover{ text-decoration: none; color : #CBE6F7;}
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 10px; color : #FFFFFF; }
+a.forumlink 	{ text-decoration: none; color : #77A4B9; }
+a.forumlink:hover{ text-decoration: NONE; color : #CBE6F7; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #FFFFFF;}
+a.nav			{ text-decoration: none; color : #77A4B9; }
+a.nav:hover		{ text-decoration: NONE; color : #CBE6F7;}
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 11px; color : #FFFFFF; }
+a.topictitle:link   { text-decoration: none; color : #77A4B9; }
+a.topictitle:visited { text-decoration: none; color : #77A4B9; }
+a.topictitle:hover	{ text-decoration: NONE; color : #CBE6F7; }
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #FFFFFF;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #FFFFFF; }
+
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 10px;}
+a.postlink:link	{ text-decoration: none; color : #77A4B9; }
+a.postlink:visited { text-decoration: none; color : #77A4B9; }
+a.postlink:hover { text-decoration: NONE; color : #CBE6F7}
+
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #aa9600;
+	background-color: #3b3b3b; border:1px solid; border-color:#707070 #707070 #707070 #707070;
+}
+
+.quote {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #aa9600;
+	background-color: #3b3b3b; border:1px solid; border-color:#707070 #707070 #707070 #707070;
+}
+
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; letter-spacing: 0px;}
+a.copyright		{ color: #77A4B9; text-decoration: none;}
+a.copyright:hover { color: #CBE6F7; text-decoration: NONE;}
+
+
+/* Form elements */
+input, textarea, select {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#707070 #707070 #707070 #707070; BACKGROUND: #262626;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #262626;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#707070 #707070 #707070 #707070; BACKGROUND: #262626;
+}
+
+/* The main submit button option */
+input.mainoption {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#707070 #707070 #707070 #707070; BACKGROUND: #262626;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#707070 #707070 #707070 #707070; BACKGROUND: #262626;
+}
+
+
+.helpline { color : #000000; background-color: #cccccc; border-style: none; }

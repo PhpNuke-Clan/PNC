@@ -1,0 +1,521 @@
+.blockhead{
+}
+body {
+top:0px;
+background:#373737 url(../images/top_bg.gif) repeat-x;
+margin: auto;
+text-align: center;
+FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px
+}
+
+input.header {
+background: #333333;
+opacity: 0.7;
+font: Arial, Helvetica, sans-serif 10px;
+border: #212121 1px solid;
+width: 90;
+height: 18;
+color: #FFFFFF;
+text-align:center;
+margin:auto;
+}
+
+font.header {
+font-size: 10px; 
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+}
+panel {
+Z-INDEX: 1; 
+LEFT: 0px; 
+WIDTH: 400px; 
+POSITION: absolute; 
+TOP: 31px; 
+TEXT-ALIGN: right
+}
+divContainer {
+LEFT: 0px; 
+VISIBILITY: hidden; 
+MARGIN: 10px; 
+OVERFLOW: hidden; 
+WIDTH: 400px; 
+CLIP: rect(0px 400px 524px 0px); 
+POSITION: absolute; 
+TOP: 45px; 
+HEIGHT: 524px
+}
+divContent {
+LEFT: 0px; 
+POSITION: absolute; 
+TOP: 0px
+}
+TD.info1 {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 1px solid #474747; 
+BORDER-RIGHT: 1px solid #000000;
+FONT-WEIGHT: bold;
+}
+TD.info2 {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 1px solid #474747; 
+BORDER-RIGHT: 1px solid #000000;
+FONT-WEIGHT: bold;
+}
+TD.infolt {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 1px solid #474747; 
+BORDER-RIGHT: 0px solid #000000;
+FONT-WEIGHT: bold;
+}
+TD.infort {
+background-color : #323232;
+BORDER-TOP: 1px solid #474747; 
+BORDER-BOTTOM: 1px solid #000000; 
+BORDER-LEFT: 0px solid #474747; 
+BORDER-RIGHT: 1px solid #000000;
+FONT-WEIGHT: bold;
+}
+bottom {
+Z-INDEX: 2; 
+LEFT: 0px; 
+WIDTH: 100%; 
+POSITION: absolute; 
+TOP: 594px; 
+HEIGHT: 30px; 
+TEXT-ALIGN: center
+}
+A:link {
+FONT-SIZE: 10px; 
+COLOR: #c3c3c3; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+A:visited {
+FONT-SIZE: 10px; 
+COLOR: #c3c3c3; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+A:active {
+FONT-SIZE: 10px; 
+COLOR: #12cd00; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+}
+A:hover {
+FONT-SIZE: 10px; 
+COLOR: #8b8b8b; 
+FONT-FAMILY:  verdana; 
+TEXT-DECORATION: none
+
+}
+TEXTAREA {background:#202020;
+color:#FFFFFF;
+font:11px Verdana,Arial,Helvetica,sans-serif;
+BORDER-TOP: #6c6c6c 1px solid; 
+BORDER-BOTTOM: #545454 1px solid; 
+BORDER-LEFT: #6c6c6c 1px solid; 
+BORDER-RIGHT: #545454 1px solid;
+}
+P {
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+LINE-HEIGHT: 1.4; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+TABLE {
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none
+}
+
+TD.content {
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #6c6c6c 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #6c6c6c 1px solid;
+FONT-SIZE: 10px;
+COLOR: #FFFFFF;
+BACKGROUND-COLOR: #202020; 
+TEXT-DECORATION: none
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+}
+TD.extra {
+background:#242426; 
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #6c6c6c 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #6c6c6c 1px solid;
+}
+TD.extras {
+background:#202020; 
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #6c6c6c 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #2d2d2d 1px solid;
+}
+TD.story {
+background:#202020;
+color:#FFFFFF;
+font:11px Verdana,Arial,Helvetica,sans-serif;
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #2d2d2d 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #2d2d2d 1px solid;
+}
+hr {
+border-top: 1px solid #2d2d2d;
+border-bottom: 1px solid #545454;
+color: transparent;
+background-color: transparent;
+height: 2px;
+width: 98%;
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+.center {
+	TEXT-ALIGN: center
+}
+.justify {
+	TEXT-ALIGN: justify
+}
+.right {
+	TEXT-ALIGN: right
+}
+H1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+.heading1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 10px; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none
+}
+
+#linktable {
+Z-INDEX: 6; 
+VISIBILITY: hidden; 
+FONT: 10px verdana; 
+COLOR: #FFFFFF; 
+POSITION: absolute; 
+TEXT-ALIGN: center
+}
+SELECT {
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #2d2d2d 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #2d2d2d 1px solid;
+FONT-SIZE: 10px;
+COLOR: #FFFFFF;
+BACKGROUND-COLOR: #202020; 
+TEXT-DECORATION: none
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #303030; border:1px solid; border-color:#404040}
+
+/* This is the outline round the main forum tables */
+.forumline	{ 
+background-color: #303030; 
+border:1px solid; 
+border-color:#404040;
+width:100%;
+}
+
+.forumlinecenter	{ 
+background-color: #303030; 
+border:1px solid; 
+border-color:#404040;
+width:100%;
+text-align:center;
+}
+
+
+.forumline-error { 
+background-color: #303030; 
+border: none;
+width:100%;
+}
+
+.tablefullcenter { 
+text-align: center;
+border: none;
+width:100%;
+}
+.colcenter { 
+text-align:center;
+}
+
+.colfullcenter { 
+width:100%;
+text-align:center;
+}
+
+
+.postimage {
+	cursor: pointer;
+	cursor: hand;
+}
+.postimage:hover {
+	background-color: #C2CFE5;
+	cursor: pointer;
+	cursor: hand;
+}
+/* Main table cell colours and backgrounds */
+td.row1	{background:#2d2d2d;border:1px solid; border-color:#414141 #000000 #000000 #414141}
+td.row2	{background:#202020;border:1px solid; border-color:#545454 #545454 #545454 #545454}
+td.row3	{background:#202020;border:1px solid; border-color:#545454 #545454 #545454 #545454}
+td.rowlt	{
+background:#202020;
+BORDER-RIGHT: #545454 0px solid; 
+BORDER-TOP: #545454 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #545454 1px solid;
+}
+td.rowrt	{
+background:#202020;
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #545454 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #545454 0px solid;
+}
+
+td.rowpic {
+		background-color: #202020;
+        border:1px solid; border-color:#545454 #545454 #545454 #545454;
+		background-repeat: repeat-y;
+}
+
+
+th	{
+	color: #FFFFFF; font-size: 11px; font-weight : bold;
+	background-color: #2d2d2d; height: 20px;
+    border:1px solid; border-color:#545454 #545454 #545454 #545454;
+	
+}
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+			
+			background-color: #202020;
+            border:1px solid; border-color:#545454 #545454 #545454 #545454; height: 28px;
+}
+
+
+td.cat, td.catHead, td.catBottom {
+	height: 28px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead, th.thSides, th.thTop, th.thLeft, th.thRight, th.thBottom, th.thCornerL, th.thCornerR {
+	font-weight: bold; border:1px solid; border-color:#545454 #545454 #545454 #545454; height: 28px; }
+td.row3Right, td.spaceRow {
+background-color: #202020; 
+BORDER-RIGHT: #545454 1px solid; 
+BORDER-TOP: #545454 1px solid; 
+BORDER-BOTTOM: #545454 1px solid;
+BORDER-LEFT: #545454 1px solid;}
+
+.spaceRow1x1 {
+width:1px;
+height:1px;
+}
+
+td.bodyfull{
+width:100%;
+height:60px;
+text-align:center;
+}
+
+th.thHead, td.catHead { font-size: 10px; border-width: 1px 1px 0px 1px; }
+th.thSides, td.catSides, td.spaceRow	 { border-width: 0px 1px 0px 1px; }
+th.thRight, td.catRight, td.row3Right	 { border-width: 0px 1px 0px 0px; }
+th.thLeft, td.catLeft	  { border-width: 0px 0px 0px 1px; }
+th.thBottom, td.catBottom  { border-width: 0px 1px 1px 1px; }
+th.thTop	 { border-width: 1px 0px 0px 0px; }
+th.thCornerL { border-width: 1px 0px 0px 1px; }
+th.thCornerR { border-width: 1px 1px 0px 0px; }
+
+
+.maintitle, h1, h2	{
+			font-weight: bold; font-size: 22px; font-family: "Arial",Verdana, Helvetica, sans-serif;
+			text-decoration: none; line-height : 100%; color : #FFFFFF;
+}
+
+
+/* General text */
+.gen { font-size : 10px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen, .genmed, .gensmall { color : #FFFFFF; }
+a.gen, a.genmed, a.gensmall { color: #999999; text-decoration: none; }
+a.gen:hover, a.genmed:hover, a.gensmall:hover	{ color: #8b8b8b; text-decoration: none; }
+
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #FFFFFF;}
+a.mainmenu		{ text-decoration: none; color : #999999;}
+a.mainmenu:hover{ text-decoration: none; color : #8b8b8b;}
+
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 10px ; letter-spacing: 0px; color : #FFFFFF}
+a.cattitle		{ text-decoration: none; color : #999999; }
+a.cattitle:hover{ text-decoration: none; color : #8b8b8b;}
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 10px; color : #FFFFFF; }
+a.forumlink 	{ text-decoration: none; color : #999999; }
+a.forumlink:hover{ text-decoration: NONE; color : #8b8b8b; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #FFFFFF; text-align:left;}
+a.nav			{ text-decoration: none; color : #999999; }
+a.nav:hover		{ text-decoration: NONE; color : #8b8b8b;}
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 11px; color : #FFFFFF; }
+a.topictitle:link   { text-decoration: none; color : #999999; }
+a.topictitle:visited { text-decoration: none; color : #999999; }
+a.topictitle:hover	{ text-decoration: NONE; color : #8b8b8b; }
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #FFFFFF;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #FFFFFF; }
+
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 10px;}
+a.postlink:link	{ text-decoration: none; color : #999999; }
+a.postlink:visited { text-decoration: none; color : #999999; }
+a.postlink:hover { text-decoration: NONE; color : #8b8b8b}
+
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #aa9600;
+	background-color: #3b3b3b; border:1px solid; border-color:#484848 #484848 #484848 #484848;
+}
+
+.quote {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #aa9600;
+	background-color: #3b3b3b; border:1px solid; border-color:#484848 #484848 #484848 #484848;
+}
+
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; letter-spacing: 0px;}
+a.copyright		{ color: #999999; text-decoration: none;}
+a.copyright:hover { color: #8b8b8b; text-decoration: NONE;}
+
+
+/* Form elements */
+input, textarea, select {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#484848 #484848 #484848 #484848; BACKGROUND: #2b2b2b;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #2b2b2b;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#484848 #484848 #484848 #484848; BACKGROUND: #2b2b2b;
+}
+
+/* The main submit button option */
+input.mainoption {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#484848 #484848 #484848 #484848; BACKGROUND: #2b2b2b;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid; border-color:#484848 #484848 #484848 #484848; BACKGROUND: #2b2b2b;
+}
+
+
+.helpline { color : #000000; background-color: #cccccc; border-style: none; }
+
+
+#hdtable {
+margin:auto;
+background-image: url("../images/hd/bg.gif");
+background-repeat: norepeat;
+width: 980px;
+height: 241px;
+border: none;
+text-align:center;
+cellpadding: 0;
+cellspacing: 0;
+}
+
+#hdtable2 {
+width: 100%;
+height: 90px;
+border: none;
+text-align:center
+margin:auto;;
+}
+
+
+#hdrow1col1 {
+background-image: url("../images/hd/header_01.gif");
+background-repeat: norepeat;
+border: none;
+}
+
+#hdrow2col1 {
+background-image: url("../images/hd/header_06.gif");
+background-repeat: norepeat;
+border: none;
+}
+
+#hdrow3col1 {
+background-image: url("../images/hd/header_08.gif");
+background-repeat: norepeat;
+width: 468px;
+height: 38px;
+border: none;
+text-align:center
+margin:auto;;
+}

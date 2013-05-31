@@ -1,0 +1,3 @@
+document.write(\"<marquee behavior= 'scroll' align= 'center' direction= 'up' height='80' scrollamount= '2' scrolldelay= '90' onmouseover='this.stop()' onmouseout='this.start()'>\");</script>";
+include("includes/next.php");
+echo "<script type='text/javascript'>document.write(\"</marquee>\");</script>

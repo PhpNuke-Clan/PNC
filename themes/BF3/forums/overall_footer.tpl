@@ -1,0 +1,1 @@
+Theme design by <a href="http://www.clanthemes.com" title="PHP Nuke" target="_blank">PHP Nuke</a> Clan Themes &copy; 2011

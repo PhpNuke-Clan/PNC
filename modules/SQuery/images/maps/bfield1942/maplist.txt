@@ -1,0 +1,118 @@
+Anzio	battleforanzio	Battle for Anzio
+Anzio	battleforanzio-a	Battle for Anzio
+Anzio	battleforanzio-b	Battle for Anzio
+Anzio	battleforanzio-c	Battle for Anzio
+Anzio	battleforanzio-d	Battle for Anzio
+Battle of the Bulge	battleofthebulge	Battle of the Bulge
+Battle of the Bulge	battleofthebulge-a	Battle of the Bulge
+Battle of the Bulge	battleofthebulge-b	Battle of the Bulge
+Battle of the Bulge	battleofthebulge-c	Battle of the Bulge
+Battle of the Bulge	battleofthebulge-d	Battle of the Bulge
+Battleaxe	battleaxe	Operation Battleaxe
+Battleaxe	battleaxe-a	Operation Battleaxe
+Battleaxe	battleaxe-b	Operation Battleaxe
+Battleaxe	battleaxe-c	Operation Battleaxe
+Battleaxe	battleaxe-d	Operation Battleaxe
+Baytown	baytown	Operation Baytown
+Baytown	baytown-a	Operation Baytown
+Baytown	baytown-b	Operation Baytown
+Baytown	baytown-c	Operation Baytown
+Baytown	baytown-d	Operation Baytown
+Berlin	berlin	Berlin
+Berlin	berlin-a	Berlin
+Berlin	berlin-b	Berlin
+Berlin	berlin-c	Berlin
+Bocage	bocage	Bocage
+Bocage	bocage-a	Bocage
+Bocage	bocage-b	Bocage
+Bocage	bocage-c	Bocage
+Bocage	bocage-d	Bocage
+Bocage	bocage-e	Bocage
+Cassino	cassino	Monte Cassino
+Cassino	cassino-a	Monte Cassino
+Cassino	cassino-b	Monte Cassino
+Cassino	cassino-c	Monte Cassino
+coral sea	coralsea	Coral Sea
+coral sea	coralsea-a	Coral Sea
+coral sea	coralsea-b	Coral Sea
+coral sea	coralsea-c	Coral Sea
+Demo Wake	wakeisland	Wake Island
+Demo Wake	wakeisland-a	Wake Island
+Demo Wake	wakeisland-b	Wake Island
+Demo Wake	wakeisland-c	Wake Island
+Demo Wake	wakeisland-d	Wake Island
+El Alamein	elalamein	El Alamein
+El Alamein	elalamein-a	El Alamein
+El Alamein	elalamein-b	El Alamein
+El Alamein	elalamein-c	El Alamein
+El Alamein	elalamein-d	El Alamein
+El Alamein	elalamein-e	El Alamein
+Husky	husky	Operation Husky
+Husky	husky-a	Operation Husky
+Husky	husky-b	Operation Husky
+Husky	husky-c	Operation Husky
+Husky	husky-d	Operation Husky
+Husky	husky-e	Operation Husky
+Gazala	gazala	Gazala
+Gazala	gazala-a	Gazala
+Gazala	gazala-b	Gazala
+Gazala	gazala-c	Gazala
+Gazala	gazala-d	Gazala
+Gazala	gazala-e	Gazala
+Guadalcanal	guadalcanal	Guadalcanal
+Guadalcanal	guadalcanal-a	Guadalcanal
+Guadalcanal	guadalcanal-b	Guadalcanal
+Guadalcanal	guadalcanal-c	Guadalcanal
+Guadalcanal	guadalcanal-d	Guadalcanal
+Guadalcanal	guadalcanal-e	Guadalcanal
+Iwo Jima	iwojima	Iwo Jima
+Iwo Jima	iwojima-a	Iwo Jima
+Iwo Jima	iwojima-b	Iwo Jima
+Iwo Jima	iwojima-c	Iwo Jima
+Iwo Jima	iwojima-d	Iwo Jima
+Kharkov	kharkov	Kharkov
+Kharkov	kharkov-a	Kharkov
+Kharkov	kharkov-b	Kharkov
+Kharkov	kharkov-c	Kharkov
+Kharkov	kharkov-d	Kharkov
+Kursk	kursk	Kursk
+Kursk	kursk-a	Kursk
+Kursk	kursk-b	Kursk
+Kursk	kursk-c	Kursk
+Kursk	kursk-d	Kursk
+Market Garden	marketgarden	Operation Market Garden
+Market Garden	marketgarden-a	Operation Market Garden
+Market Garden	marketgarden-b	Operation Market Garden
+Market Garden	marketgarden-c	Operation Market Garden
+Midway	midway	Battle of Midway
+Midway	midway-a	Battle of Midway
+Midway	midway-b	Battle of Midway
+Midway	midway-c	Battle of Midway
+Midway	midway-d	Battle of Midway
+Midway	midway-e	Battle of Midway
+Omaha Beach	omahabeach	Omaha Beach
+Omaha Beach	omahabeach-a	Omaha Beach
+Omaha Beach	omahabeach-b	Omaha Beach
+Omaha Beach	omahabeach-c	Omaha Beach
+Salerno	salerno	Battle of Salerno
+Salerno	salerno-a	Battle for Salerno
+Salerno	salerno-b	Battle for Salerno
+Salerno	salerno-c	Battle for Salerno
+Salerno	salerno-d	Battle for Salerno
+Santo Croce	santocroce	Monte Santo Croce
+Santo Croce	santocroce-a	Monte Santo Croce
+Santo Croce	santocroce-b	Monte Santo Croce
+Santo Croce	santocroce-c	Monte Santo Croce
+Stalingrad	stalingrad	Stalingrad
+Stalingrad	stalingrad-a	Stalingrad
+Stalingrad	stalingrad-b	Stalingrad
+Stalingrad	stalingrad-c	Stalingrad
+Tobruk	tobruk	Tobruk
+Tobruk	tobruk-a	Tobruk
+Tobruk	tobruk-b	Tobruk
+Tobruk	tobruk-c	Tobruk
+Wake	wakeisland	Wake Island
+Wake	wakeisland-a	Wake Island
+Wake	wakeisland-b	Wake Island
+Wake	wakeisland-c	Wake Island
+Wake	wakeisland-d	Wake Island

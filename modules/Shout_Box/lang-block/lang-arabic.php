@@ -1,0 +1,38 @@
+<?php
+// ==========================================
+// PHP-NUKE: Shout Box
+// ==========================
+//
+// Copyright (c) 2004 by Aric Bolf (SuperCat)
+// http://www.OurScripts.net
+//
+// This program is free software. You can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation
+// ===========================================
+
+define("_SB_MESSAGE","ÇáÑÓÇáÉ");
+define("_SB_NOTE","ãáÇÍÙÉ");
+define("_SB_ADMIN","ÅÏÇÑÉ ÇáãæÞÚ");
+define("_SHOUTHISTORY","ÊÇÑíÎ ÇáÅåÏÇÁÇÊ");
+define("_ONLYREGISTERED","ÚÝæÇð ÇáÃÚÖÇÁ ÝÞØ íÑÓáæä ÇáÅåÏÇÁ");
+define("_SHOUTLOGIN","ÃÏÎá");
+define("_OR","Ãæ");
+define("_CREATEANACCT","ÓÌøá");
+define("_NAME","ÇáÇÓã");
+define("_SMILIES","ÇáÇÈÊÓÇãÇÊ");
+define("_SHOUT","ÇáÅåÏÇÁ");
+define("_NICKTOOSHORT","ÇáÇÓã ÇáãÓÊÚÇÑ ÞÕíÑ ÌÏÇð.");
+define("_SHOUTTOOSHORT","ÇáÅåÏÇÁ ÞÕíÑ ÌÏÇð.");
+define("_SHOUTTOOLONG","ÇáÅåÏÇÁ Øæíá ÌÏÇð.");
+define("_NONICK","ÈÏæä ÇÓã");
+define("_JSINNICK","ÇáÌÇÝÇÓßÑÈÊ Ýí ÇáÇÓã ÇáãÓÊÚÇÑ");
+define("_NOSHOUT","áÇ ÅåÏÇÁÇÊ");
+define("_JSINSHOUT","ÇáÌÇÝÇÓßÑÈÊ Ýí ÇáÅåÏÇÁ.");
+define("_URLNOTALLOWED","ÇáÑæÇÈØ ÛíÑ ãÓãæÍÉ Ýí ÇáÅåÏÇÁÇÊ.");
+define("_DUPLICATESHOUT","ÇáÅåÏÇÁ ãÖÇÚÝ");
+define("_BANNEDNICK","ÇÓã ãÓÊÚÇÑ ããäæÚ.");
+define("_NOCLONINGNICKS","ÇáÇÓã ÇáãÓÊÚÇÑ ÇáãÓÌá ÛíÑ ãÓãæÍ Ýíå");
+define("_YOUAREBANNED","ÃäÊ<br/>ããäæÚ!");
+
+?>

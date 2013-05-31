@@ -1,0 +1,12 @@
+0||other||0||0||0|| ||Abuse-Other||abuse_default.tpl||0||0||
+1||union||1||0||0|| ||Abuse-Union||abuse_union.tpl||0||0||
+2||clike||1||0||0|| ||Abuse-CLike||abuse_clike.tpl||0||0||
+3||harvester||0||0||0|| ||Abuse-Harvest||abuse_harvester.tpl||0||0||
+4||script||1||0||0|| ||Abuse-Script||abuse_script.tpl||0||0||
+5||author||1||0||0|| ||Abuse-Author||abuse_author.tpl||0||0||
+6||referer||0||0||0|| ||Abuse-Referer||abuse_referer.tpl||0||0||
+7||filter||1||0||0|| ||Abuse-Filter||abuse_filter.tpl||0||0||
+8||request||0||0||0|| ||Abuse-Request||abuse_request.tpl||0||0||
+9||string||0||0||0|| ||Abuse-String||abuse_string.tpl||0||0||
+10||admin||1||0||0|| ||Abuse-Admin||abuse_admin.tpl||0||0||
+11||flood||0||0||0|| ||Abuse-Flood||abuse_flood.tpl||0||0||

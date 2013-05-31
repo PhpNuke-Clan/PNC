@@ -1,0 +1,110 @@
+NOTE:
++++++
+
+With this code you can get your rights back, you could have deleted (e.g. admin rights).
+
+
+INSTRUCTION:
+++++++++++++
+
+Create a new textfile with a simple text editor and copy the code below into that file.
+Save it as
+
+	checkaccess.php
+
+in your main vwar directory.
+Upload now this file, edit, what needed, and REMOVE IT afterwards or anyone could
+delete your rights!
+
+
+CODE:
++++++
+
+<html>
+<head>
+<title>Virtual War - Get Access</title>
+</head>
+<body>
+<table cellPadding="4" cellSpacing="1" border="0" bgcolor="#000000" align="center" width="90%">
+	<tr bgcolor="#D0D0E0">
+		<td align="center"><font face="verdana,tahoma,arial" size="4"><b>Virtual War Check Access</b></font></td>
+	</tr>
+</table><br>
+<table cellPadding="4" cellSpacing="1" border="0" bgcolor="#000000" align="center" width="90%">
+<form action="checkaccess.php" method="post">
+<?php
+$count=0;
+require("includes/functions_common.php");
+$result=$vwardb->query_first("SELECT accessgroupid FROM vwar".$n."_member WHERE memberid = '".$GPC['vwarid']."'");
+$accessgroupid=$result["accessgroupid"];
+
+if($send)
+{
+	while(list($key,$val)=each($GPC['access']))
+	{
+		$vwardb->query("UPDATE vwar".$n."_accessgroup SET ".$key." = '".$val."' WHERE accessgroupid = '".$accessgroupid."'");
+	}
+	?>
+	<tr bgcolor="#D0D0E0">
+		<td align="center"><font face="verdana,tahoma,arial" size="2"><b>Done, the rights have been restored! <u>Delete</u> 'checkaccess.php'!</b></font></td>
+	</tr>
+	<?php
+
+} else {
+		
+	?>
+	<tr bgcolor="#D0D0E0">
+		<td colSpan="3"><br>
+			<table cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td vAlign="top"><font face="verdana,tahoma,arial" size="3"><b>&raquo;&nbsp;&nbsp;</b></font></td>
+					<td><font face="verdana,tahoma,arial" size="2"><b>Restore rights:</b><br>(1 = access enabled / 0 = access denied)</font></td>
+				</tr>
+			</table><br>
+		</td>
+	</tr>
+	<?php
+	
+	$result = $vwardb->query("SELECT * FROM vwar".$n."_accessgroup WHERE accessgroupid='$accessgroupid'");
+	$row = $vwardb->fetch_array($result);
+	$numfields = $vwardb->num_fields($result);
+	for($i=0;$i<$numfields;$i++) {
+	 $settingname = $vwardb->field_name($result,$i);
+	 $$settingname = $row[$settingname];
+	 if($settingname != "accessgroupname" && $settingname != "accessgroupid" && $$settingname != 1)
+	 {
+	 	echo "<tr bgcolor=\"#F0C060\">\n";
+	 	echo "	<td><font face=\"verdana,tahoma,arial\" size=\"2\" width=\"33%\"><b>".$settingname.":</b></font></td>\n";
+	 	echo "	<td><font face=\"verdana,tahoma,arial\" size=\"2\" width=\"33%\"><b>Current Value:</b> ".$$settingname."</font></td>\n";
+	 	echo "	<td><font face=\"verdana,tahoma,arial\" size=\"2\" width=\"33%\">Set to 1: <input type=\"checkbox\" name=\"access[$settingname]\" value=\"1\"></font></td>\n";
+	 	echo "</tr>";
+	 	$count++;
+	 } else {
+	 	echo "<tr bgcolor=\"#D0D0E0\">\n";
+	 	echo "	<td colSpan=\"3\"><font face=\"verdana,tahoma,arial\" size=\"2\"><b>".$settingname.":</b>&nbsp;".$$settingname."</font></td>\n";
+	 	echo "</tr>";
+	 }	 	
+	}
+	$vwardb->free_result($result);
+	
+	if($count > 0)
+	{
+	?>
+		<tr bgcolor="#D0D0E0">
+			<td align="center" colSpan="3"><input type="submit" name="send" value="Change Settings"></td>
+		</tr>
+	<?php
+	} else {
+	?>
+		<tr bgcolor="#D0D0E0">
+			<td align="center"><font face="verdana,tahoma,arial" size="2"><b>You have full access, no need to change anything!</b></font></td>
+		</tr>
+	<?php
+	}
+	
+}
+?>	
+<form>
+</table>
+</body>
+</html>

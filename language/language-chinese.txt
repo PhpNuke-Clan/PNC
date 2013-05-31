@@ -1,0 +1,23 @@
+
+
+define("_METAC","Meta 語法產生器");
+define("_SCROLLC","捲軸(Scrollbar)產生器");
+define("_HEXC","Hex Colors(背景取色)");
+define("_BLOCKC","區塊(Block)產生器");
+define("_MODULEC","模組(Module)產生器");
+define("_HTMLC","HTML 轉成 PHP");
+define("_EDITORC","線上 HTML 編輯器");
+
+define("_POPUP","浮動視窗(Popup)產生器");
+define("_HTMLASP","HTML 轉成 ASP");
+define("_HTMLJS","HTML 轉成 Javascript");
+define("_HTMLJSP","HTML 轉成 JSP");
+define("_HTMLPERL","HTML 轉成 Perl");
+define("_HTMLSWS","HTML 轉成 SWS");
+
+define("_PREVIEWER","預覽");
+define("_SCODER","原始碼編碼器");
+define("_HTMLCODER","HTML 編碼器");
+define("_URLCODER","URL 編碼器");
+define("_EMAILCODER","Email 編碼器");
+define("_ROTCODER","Rot-13 編碼器");

@@ -1,0 +1,15 @@
+.nukeNAVmod, .nukeNAVmod li{width:180px;}
+.nukeNAV,.nukeNAV *{z-index:2;list-style:none;margin:0;padding:0;}
+#navigation .nukeNAV a{border:0;padding:8px 6px;margin:0;}
+.nukeNAV a,.nukeNAV a:visited{color:#546A7B;}
+#navigation .nukeNAV li{ }
+#navigation .nukeNAV li:hover,.nukeNAV li.sfHover,.nukeNAV a:focus,.nukeNAV a:hover,.nukeNAV a:active{background:#330303;color:#546A7B;outline:0; border:0;}
+#navigation .nukeNAV li li,.nukeNAV li li li{ }
+#navigation .nukeNAV a.sf-with-ul{padding-right:1.0em;min-width:1px;}
+#navigation .nukeNAV li li a, #navigation .nukeNAV li li li a{font-size:10px;padding-left:0;padding-right:0;width:10em;}
+.nukeNAVmod a,.nukeNAVmod a:visited{color:#546A7B;font: 13px 'Lato', arial, serif; line-height:12px;}
+.nukeNAVmod li:hover,.nukeNAVmod li.sfHover,.nukeNAVmod a:focus,.nukeNAVmod a:hover,.nukeNAVmod a:active{color:#FFF;background: none;outline:0;}
+.nukeNAVmod li:hover ul,.nukeNAVmod li.sfHover ul{ padding:4px;background:url('../images/transparant.png'); z-index:99;left:14em;top:0;border-top:#1A1A1A 1px solid; border-bottom:#4e4e4e 1px solid; border-left:#1A1A1A 1px solid; border-right:#4e4e4e 1px solid;}
+.nukeNAVmod li,.nukeNAVmod li li,.nukeNAVmod li li li{background: none;}
+.nukeNAVmod li li,.nukeNAVmod li li li{padding:2;margin:0;}
+.sf-sub-indicator{background:url('../images/custom-arrows.png') no-repeat !important;}

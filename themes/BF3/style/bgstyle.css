@@ -1,0 +1,18 @@
+/*****************
+Main Body
+*****************/
+.main{
+		background:url('../../../themes/BF3/images/backgrounds/main-bg.jpg') center top #000 no-repeat!important;
+		font:13px/1.5 'Droid Sans', arial, serif; 
+		cursor:default;
+		margin:0;
+		width: 100%;		
+}
+
+.main_two{
+		background:url('../../../themes/BF3/images/backgrounds/main_two.jpg') center top #000 no-repeat;
+		font:13px/1.5 'Droid Sans', arial, serif; 
+		cursor:default;
+		margin:0;
+		width: 100%;
+}

@@ -1,0 +1,109 @@
+<?php
+// ==========================================
+// PHP-NUKE: Shout Box
+// ==========================
+//
+// Copyright (c) 2004 by Aric Bolf (SuperCat)
+// http://www.OurScripts.net
+//
+// This program is free software. You can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation
+// ===========================================
+
+define("_BBAREMOVE","ÍÐÝ");
+define("_SHOUTADMIN","Shout Box ÅÏÇÑÉ ãæÏíæá");
+define("_MANAGESHOUTS","ÅÏÇÑÉ ÇáÅåÏÇÁÇÊ");
+define("_SB_LAYOUT","ÇáæÖÚíÉ");
+define("_SB_THEMEING","ÇáËíãÇÊ");
+define("_SB_PERMISSIONS","ÇáãæÇÝÞÇÊ");
+define("_SB_EMOTICONS","ÇáÇÈÊÓÇãÇÊ");
+define("_SB_CENSOR","ÇáãÑÇÞÈÉ");
+define("_SB_BANS","ÚãáíÇÊ ÇáãäÚ");
+define("_SB_NICKNAME","ÇáÇÓã ÇáãÓÊÚÇÑ");
+define("_SB_TIME","ÇáæÞÊ");
+define("_SB_DATE","ÇáÊÇÑíÎ");
+define("_DELETE","ÍÐÝ");
+define("_EDIT","ÊÍÑíÑ");
+define("_BAN","ãäÚ");
+define("_SB_BANNED","ããäæÚ");
+define("_VIEWINGSHOUTS","ãÔÇåÏÉ ÇáÅåÏÇÁÇÊ");
+define("_TOTALSHOUTS","ÅÌãÇáí ÇáÅåÏÇÁÇÊ");
+define("_REMOVECHECKEDSHOUTS","ÍÐÝ ÇáÅåÏÇÁÇÊ ÇáãÚáøãÉ");
+define("_PREVIOUSTEN","ÇáÓÇÈÞ 10");
+define("_NEXTTEN","ÇáÊÇáí 10");
+define("_SB_STICKYSHOUTS","ÇáÅåÏÇÁÇÊ ÇáãÚáøÞÉ");
+define("_SB_SUBMIT","ÇÖÛØ");
+define("_EDITSHOUT","ÊÍÑíÑ ÅåÏÇÁ");
+define("_SB_NOTE","ãáÇÍÙÉ");
+define("_UPDATE","ÊÍÏíË");
+define("_CANCELEDIT","ÍÐÝ ÇáãÍÑøÑ");
+define("_SHOUTTOOSHORT","ÇáÅåÏÇÁ ÞÕíÑ ÌÏÇð.");
+define("_NOSHOUT","áÇ ÅåÏÇÁÇÊ.");
+define("_JSINSHOUT","ÇáÌÇÝÇÓßÑÈÊ ÏÇÎá ÇáÅåÏÇÁ");
+define("_URLNOTALLOWED","ÇáÑæÇÈØ ÛíÑ ãÓãæÍÉ Ýí ÇáÅåÏÇÁÇÊ");
+define("_DISPLAYDATEOFSHOUT","ÚÑÖ ÇáÊÇÑíÎ ÏÇÎá ÇáÅåÏÇÁ");
+define("_DISPLAYTIMEOFSHOUT","ÚÑÖ ÇáæÞÊ ÏÇÎá ÇáÅåÏÇÁ");
+define("_TIMEOFFSET","ÇáæÞÊ ÍÓÈ ÊæÞíÊ ÇáÓíÑÝÑ");
+define("_INHOURS","Ýí ÇáÓÇÚÉ");
+define("_NUMBEROFSHOUTS","ÚÏÏ ÇáÅåÏÇÁÇÊ ááÚÑÖ");
+define("_TABLEHEIGHT","ÇÑÊÝÇÚ ÇáÈáæß");
+define("_BLOCKINPUTBOXWIDTH","ÚÑÖ ÇáÈáæß");
+define("_SMILIESPERROW","ÇáÇÈÊÓÇãÇÊ áßá ÕÝ Ýí ÇáÃÓÝá");
+define("_SHOUTSORDER","ÚÑÖ ÇáÅåÏÇÁÇÊ");
+define("_OLDESTFIRST","ÇáÞÏíãÉ ÃæáÇð");
+define("_NEWESTFIRST","ÇáÌÏíÏÉ ÃæáÇð");
+define("_SAVEABOVESET","ÍÝÙ ÇáÅÚÏÇÏÇÊ");
+define("_SAVESETS","ÇÍÝÙ ÇáÅÚÏÇÏÊ");
+define("_SB_VERSION","Shout Box äÓÎÉ");
+define("_SB_NEW_VERSION_RELEASED","åäÇß äÓÎÉ ÌÏíÏÉ áãæÏíæá Shout Box ÞÏ Êã ÅÕÏÇÑåÇ !");
+define("_SB_YOUR_VERSION","äÓÎÊß ÇáÍÇáíÉ");
+define("_SB_NEWEST_VERSION","ÇáäÓÎÉ ÇáÃÍÏË åí");
+define("_SB_DOWNLOAD_NOW","ÍãøáåÇ ÇáÂä");
+define("_SB_SHOUTBOX_IS_UPTODATE","Åä ãæÏíæá Shout Box ÍÏíË.");
+define("_SB_CHECK_FOR_NEW","Þã ÈÇáÊÃßÏ åá ÕÏÑÊ äÓÎÉ ÌÏíÏÉ");
+define("_SETUPANDSECURITY","ãÑÇÞÈÉ ÇáÃãä æÇáÇÓÊÚÏÇÏ");
+define("_CURRENTCOND","ÇáÔÑØ ÇáÍÇáí");
+define("_SBEXCELLENT","ããÊÇÒ");
+define("_SBMARGINAL","ãÊÃÑÌÍ");
+define("_SBCRITICAL","ÎØÑ");
+define("_ANALYZEANDVIEW","ÊÍáíá ÇáäÙÇã æãÔÇåÏ ÇáÊæÕíÇÊ");
+define("_SB_THEMECOLORING","ÃáæÇä ÇáËíã");
+define("_SB_THEME","ÇáËíã");
+define("_SHOUTBOX","ÕäÏæÞ ÇáÅåÏÇÁ");
+define("_SB_BORDER","ÇáÍÏæÏ");
+define("_SB_MENU","ÇáÞÇÆãÉ");
+define("_SB_ROW","ÇáÕÝ");
+define("_SB_SAVECOLORVALUES","ÇÍÝÙ Þíã Çááæä");
+define("_SB_HELPWITHCOLORS","ãÓÇÚÏÉ ÇáÃáæÇä");
+define("_SB_THEMEIMAGES","ÕæÑ ÇáËíã");
+define("_SB_BOXARROWS","ÃÓåã ÇáÕäÏæÞ");
+define("_SB_BOXBACKGROUND","ÎáÝíÉ ÇáÕäÏæÞ");
+define("_SB_SAVEIMAGEVALUES","ÇÍÝÙ Þíã ÇáÕæÑÉ");
+define("_ALLOWURLTAGS","ÇÓãÍ ááÜ URL tag ÏÇÎá ÇáÅåÏÇÁÇÊ");
+define("_ALLOWREGDELETE","ÇÓãÍ ááÃÚÖÇÁ ÈÊÍÑíÑ/ÍÐÝ ÇáÅåÏÇÁÇÊ");
+define("_ALLOWANONSSHOUT","ÇÓãÍ ááÒæÇÑ ÈÅÖÇÝÉ ÅåÏÇÁ");
+define("_EMOTICON","ÇáÇÈÊÓÇãÇÊ");
+define("_ADDEMOTICON","ÃÖÝ ÇÈÊÓÇãÉ");
+define("_IMAGESOURCE","ãÕÏÑ ÇáÕæÑÉ");
+define("_CENSORTEXTONOFF","ÇáäÕ ãÑÇÞÈ ÏÇÎá ÕäÏæÞ ÇáÅåÏÇÁ [äÚã/áÇ]");
+define("_CENSOR","ãÑÇÞÈ");
+define("_EDITCENSOR","ÊÍÑíÑ ÇáãÑÇÞÈÉ");
+define("_REPLACEMENT","ÇáÈÏíá");
+define("_WORDTOCENSOR","ßáãÉ ãÑÇÞÈÉ");
+define("_REPLACEWITH","ÇÓÊÈÏá ßáãÉ ãÑÇÞÈÉ È");
+define("_BANIPONOFF","ãäÚ ãä ÇáÅÖÇÝÉ ÈæÇÓØÉ ÇáÜ IP [äÚã/áÇ]");
+define("_BANNAMEONOFF","ãäÚ ãä ÇáÅÖÇÝÉ ÈæÇÓØÉ ÇáÇÓã [äÚã/áÇ]");
+define("_ADDIPTOBAN","ÃÖÝ IP áãäÚå ãä ÇáÅÖÇÝÉ");
+define("_BANNEDIP","ãäÚ IP");
+define("_EDITADDRESS","ÊÍÑíÑ ÚäæÇä");
+define("_IPBANNED","IP ããäæÚ ãä ÇáÅÖÇÝÉ");
+define("_UPDATEIP","ÊÍÏíË IP");
+define("_ADDNAMETOBAN","ÃÖÝ ÇÓã áãäÚå ãä ÇáÅÖÇÝÉ");
+define("_BANNEDNAMES","ÇáÃÓãÇÁ ÇáããäæÚÉ");
+define("_EDITNAME","ÊÍÑíÑ ÇÓã");
+define("_NAMEBANNED","ÇáÇÓã ããäæÚ ááÅÖÇÝÉ");
+define("_UPDATENAME","ÊÍÏíË ÇÓã");
+define("_SB_SHOUT","ÅåÏÇÁ");
+
+?>

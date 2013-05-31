@@ -1,0 +1,53 @@
+<?php
+
+/********************************************************/
+/* NSN Groups                                           */
+/* By: NukeScripts Network (webmaster@nukescripts.net)  */
+/* http://www.nukescripts.net                           */
+/* Copyright © 2000-2005 by NukeScripts Network         */
+/********************************************************/
+
+if(!defined('MODULE_FILE')) { die("Illegal Access Detected!!!"); }
+    include("header.php");
+    title(_GR_PUBLICGROUPS);
+    OpenTable();
+    echo "<center><table border='0' cellpadding='2' cellspacing='2' bgcolor='$bgcolor2'>\n";
+    echo "<tr bgcolor='$bgcolor2'>\n";
+    echo "<td align='center' width='200'><b>"._GR_GRPNAME."</b></td>\n";
+    echo "<td align='center' width='100'><b>"._GR_NUMUSERS."</b></td>\n";
+    echo "<td align='center' width='100'><b>"._GR_LIMIT."</b></td>\n";
+    echo "<td align='center' width='100'><b>&nbsp;</b></td>\n";
+    echo "</tr>\n";
+    $result = $db->sql_query("SELECT `gid`, `gname`, `gpublic`, `glimit`  FROM `".$prefix."_nsngr_groups` WHERE `gpublic`!='2' ORDER BY `gname`");
+    if($db->sql_numrows($result) > 0) {
+      while(list($gid, $gname, $gpublic, $glimit ) = $db->sql_fetchrow($result)) {
+        $numusers = $db->sql_numrows($db->sql_query("SELECT `uid` FROM `".$prefix."_nsngr_users` WHERE `gid`='$gid'"));
+        echo "<tr bgcolor='$bgcolor1' onmouseover='this.style.backgroundColor=\"$bgcolor2\"' onmouseout='this.style.backgroundColor=\"$bgcolor1\"'>\n";
+        echo "<td align='center'>$gname</td>\n";
+        echo "<td align='center'>$numusers</td>\n";
+        if($glimit == 0) {
+          $gmlimit = _GR_NOLIMIT;
+        } elseif($glimit <= $numusers) {
+          $gmlimit = _GR_FILLED;
+        } else {
+          $gmlimit = $glimit;
+        }
+        echo "<td align='center'>$gmlimit</td>\n";
+        echo "<td align='center'>\n";
+        echo "<a href='modules.php?name=$module_name&amp;op=GRInfo&amp;gid=$gid'><img src='modules/$module_name/images/info.png' height='16' width='36' border='0' alt='"._GR_INFO."' title='"._GR_INFO."'></a>\n";
+        if(($glimit == 0 OR $numusers < $glimit) AND !in_group($gid) AND is_user($user) AND $gpublic == 0) {
+          echo "<a href='modules.php?name=$module_name&amp;op=GRJoin&amp;gid=$gid'><img src='modules/$module_name/images/join.png' height='16' width='36' border='0' alt='"._GR_JOIN."' title='"._GR_JOIN."'></a>\n";
+        } //else {
+          //echo "<img src='modules/$module_name/images/blank.png' height='16' width='36' border='0'>\n";
+        //}
+        echo "</td>\n";
+        echo "</tr>\n";
+      }
+    } else {
+      echo "<tr bgcolor='$bgcolor1'><td align='center' colspan='4'>"._GR_NOPUBLICGROUPS."</td></tr>\n";
+    }
+    echo "</table></center>\n";
+    CloseTable();
+    include("footer.php");
+
+?>

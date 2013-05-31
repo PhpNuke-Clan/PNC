@@ -1,0 +1,23 @@
+/*****************************************************/
+/* Module PHP-Nuke Tools 3.00                        */
+/*****************************************************/
+
+define("_BLOCKC","Block Creatore");
+define("_MODULEC","Module Creatore");
+define("_EDITORC","Inlinea HTML Editore");
+define("_SCROLLC","Generatore di Barra di Scorrimento");
+define("_POPUP","Popup Creatore");
+define("_HTMLC","HTML to PHP");
+define("_HTMLASP","HTML to ASP");
+define("_HTMLJS","HTML to Javascript");
+define("_HTMLJSP","HTML to JSP");
+define("_HTMLPERL","HTML to Perl");
+define("_HTMLSWS","HTML to SWS");
+define("_HEXC","Hex Colori");
+define("_MODULEC","Creatore di Meta-Tags");
+efine("_PREVIEWER","Anteprima");
+define("_SCODER","Sorgente Codifica");
+define("_HTMLCODER","HTML Codifica");
+define("_URLCODER","URL Codifica");
+define("_EMAILCODER","Email Codifica");
+define("_ROTCODER","Rot-13 Codifica");

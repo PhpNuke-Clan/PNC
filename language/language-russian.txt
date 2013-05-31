@@ -1,0 +1,23 @@
+/*****************************************************/
+/*Nuke Tools 3.00  Перевод www.CMSinfo.ri            */
+/*****************************************************/
+
+define("_BLOCKC","Генератор блоков");
+define("_MODULEC","Генератор модулей");
+define("_HTMLC","HTML в PHP");
+define("_EDITORC","Онлайн HTML редактор");
+define("_POPUP","Popup генератор");
+define("_SCROLLC","Scrollbar генератор");
+define("_METAC","Генератор Meta тэгов");
+define("_HTMLASP","HTML в ASP");
+define("_HTMLJS","HTML в Javascript");
+define("_HTMLJSP","HTML в JSP");
+define("_HTMLPERL","HTML в Perl");
+define("_HTMLSWS","HTML в SWS");
+define("_HEXC","Hex Colors");
+define("_PREVIEWER","Previewer");
+define("_SCODER","Source Encoder");
+define("_HTMLCODER","HTML Encoder");
+define("_URLCODER","URL Encoder");
+define("_EMAILCODER","Email Encoder");
+define("_ROTCODER","Rot-13 Encoder");
